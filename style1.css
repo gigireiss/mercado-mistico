@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+body {
+    background-image: url(img/fundo.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+}
+ 
+.login {
+    font-family: "Sree Krushnadevaraya", serif;
+    background-color: rgba(255, 255, 255, 0.888);
+    height: 50vh;
+    width: 50vh;
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ 
+}
+ 
+#botao {
+    background-color: #FFAAE2;
+    color: white;
+    border-color: white;
+    width: 35vh;
+    height: 35px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+ 
+input{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    box-sizing: 2px;
+    font-family: "Sree Krushnadevaraya", serif;
+    font-size: 15px;
+    margin-top: 15px;
+}

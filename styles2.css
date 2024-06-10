@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    height: 70vh;
+    overflow: hidden;
+}
+
+
+.primeiro_container{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.primeiro_container div{
+    font-size: 33px;
+    color: rgba(138, 47, 7, 1);
+    font-family: "Oleo Script", system-ui;
+    background-color: #F9F6B5;
+    border-radius: 30px;
+    height: 10vh;
+    width: 30vw;
+    margin-left: 35vw;
+    text-shadow:
+    4px 0 0 white, 
+    -4px 0 0 white,
+    0 4px 0 white,
+    0 -4px 0 white;
+}
+
+.primeiro_container p{
+    color: #AC620B;
+    font-size: 30px;
+    font-family: "Spicy Rice", serif;
+    font-weight: bold;
+    text-shadow:
+    3px 3px 0 white, 
+    -3px 3px 0 white,
+    3px -3px 0 white,
+    -3px -3px 0 white,
+    3px 0 0 white, 
+    -3px 0 0 white,
+    0 3px 0 white,
+    0 -3px 0 white;
+    
+}
+
+#botao {
+    background-color: #8ca9f3;
+    color: white;
+    border-color: white;
+    width: 25vh;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+#segundo_container{
+    background-color: rgb(255, 187, 223);
+    height: 30vh;
+    width: 95vw;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    gap: 5rem;
+    justify-content: center;
+}
+
+#segundo_container img{
+    height: 8rem;
+    width: 12rem;
+    border-radius: 10px;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    height: 19vh;
+    border-radius: 10px;
+}
+
+.img1 p{
+    position: absolute;
+    margin-top: 05.rem;
+    z-index: 2;
+    color: #AC620B;
+    font-size: 25px;
+    font-family: "Spicy Rice", serif;
+    font-weight: bold;
+    text-shadow:
+    3px 3px 0 white, 
+    -3px 3px 0 white,
+    3px -3px 0 white,
+    -3px -3px 0 white,
+    3px 0 0 white, 
+    -3px 0 0 white,
+    0 3px 0 white,
+    0 -3px 0 white;
+
+}
+
+.img2{
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    height: 19vh;
+    border-radius: 10px;
+}
+
+.img2 p{
+    position: absolute;
+    margin-top: 05.rem;
+    z-index: 2;
+    color: #AC620B;
+    font-size: 25px;
+    font-family: "Spicy Rice", serif;
+    font-weight: bold;
+    text-shadow:
+    3px 3px 0 white, 
+    -3px 3px 0 white,
+    3px -3px 0 white,
+    -3px -3px 0 white,
+    3px 0 0 white, 
+    -3px 0 0 white,
+    0 3px 0 white,
+    0 -3px 0 white;
+}
+
+.img3{
+    display: flex;
+    justify-content: center;
+    border: 3px solid white;
+    height: 19vh;
+    border-radius: 10px;
+}
+
+.img3 p{
+    position: absolute;
+    margin-top: 05.rem;
+    z-index: 2;
+    color: #AC620B;
+    font-size: 25px;
+    font-family: "Spicy Rice", serif;
+    font-weight: bold;
+    text-shadow:
+    3px 3px 0 white, 
+    -3px 3px 0 white,
+    3px -3px 0 white,
+    -3px -3px 0 white,
+    3px 0 0 white, 
+    -3px 0 0 white,
+    0 3px 0 white,
+    0 -3px 0 white;
+} 
+
+#text{
+position: absolute;
+
+}
+
