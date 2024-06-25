@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="imagens/">
+    <link rel="stylesheet" href="style3.css">
+    <title>Brinquedos</title>
+    <script async src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="search-bar">
+            <img src="img/lupa.png" alt="Ícone de lupa">
+            <input type="text" placeholder="O que você está buscando?">
+        </div>
+    </header>
+
+    <main>
+        <div class="product-card">
+            <img src="img/cama.png" alt="Cama alta com gavetas" class="product-image">
+            <h3 class="product-title">Cama alta com gavetas</h3>
+            <div class="preco_botao">
+               <span class="product-price">R$45,55</span>
+                <button class="botao-carrinho" type="button">adiciona</button>
+             
+
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/gato.png" alt="Fantasia de princesa azul para adolescente" class="product-image">
+            <h3 class="product-title">Fantasia de princesa</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$30,50</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/boneco.png" alt="Bebê porco espinho de 2 anos" class="product-image">
+            <h3 class="product-title">Bebê porco espinho</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$50,65</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/lavanderia.png" alt="Kit lavanderia" class="product-image">
+            <h3 class="product-title">Kit lavanderia</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$60,30</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/espelho.png" alt="Penteadeira com espelho" class="product-image">
+            <h3 class="product-title">Penteadeira com espelho</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$55,90</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+
+        </div>
+
+        <div class="product-card">
+            <img src="img/casa.png" alt="Casa de dois andares com varanda" class="product-image">
+            <h3 class="product-title">Casa de dois andares</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$210,25</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+
+    
+        </div>
+
+        <div class="product-card">
+            <img src="img/girafa.png" alt="Girafa criança" class="product-image">
+            <h3 class="product-title">Girafa criança de 4 anos</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$60,50</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <img src="img/carro.png" alt="Carro vermelho de 4 lugares" class="product-image">
+            <h3 class="product-title">Carro vermelho de 4 lugares</h3>
+            <div class="preco_botao">
+                <span class="product-price">R$180,85</span>
+                <button class="botao-carrinho" type="button">adicionar</button>
+            </div>
+        </div>
+
+        <section>
+            <h2>Carrinho</h2>
+            
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                       <th class="table-head-item first-col">Item</th>
+                       <th class="table-head-item second-col">Preço</th>
+                       <th class="table-head-item third-col">Quantidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr class="cart-product">
+                        <td class="product-identification">
+                            <img class="cart-product-image" src="./img/gato.png" alt="FAntasia De Princesa">
+                            <strong class="cart-product-title">Fantasia De Princesa</strong>
+                        </td>
+                        <td>
+                            <span class="cart-product-price">R$30,50</span>
+                        </td>
+                        <td>
+                            <input class="product-qtd-input" type="number" value="2" min="0">
+                            <button class="remove-product-button" type="button">Remover</button>
+                        </td>
+                    </tr>
+
+                    <tr class="cart-product"> 
+                        <td class="product-identification"> 
+                            <img class="cart-product-image" src="./img/girafa.png" alt="Girafa criança de 4 anos">
+                            <strong class="cart-product-title">Girafa criança</strong>
+                        </td>
+                        <td> 
+                            <span class="cart-product-price">R$60,50</span>
+                        </td>
+                        <td>
+                            <input class="product-qtd-input" type="number" value="1" min="0">
+                            <button class="remove-product-button" type="button">Remover</button>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr> 
+                        <td colspan="3" class="cart-total-container">
+                            <strong>Total</strong>
+                            <span>R$89,89</span>
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <button class="purchase-button" type="button">Finalizar compra</button>
+        </section>
+    </main>
+    
+</body>
+</html>
